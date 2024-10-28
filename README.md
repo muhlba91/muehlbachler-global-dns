@@ -2,6 +2,7 @@
 
 [![Build status](https://img.shields.io/github/actions/workflow/status/muhlba91/muehlbachler-global-dns/pipeline.yml?style=for-the-badge)](https://github.com/muhlba91/muehlbachler-global-dns/actions/workflows/pipeline.yml)
 [![License](https://img.shields.io/github/license/muhlba91/muehlbachler-global-dns?style=for-the-badge)](LICENSE.md)
+[![](https://api.scorecard.dev/projects/github.com/muhlba91/muehlbachler-global-dns/badge?style=for-the-badge)](https://scorecard.dev/viewer/?uri=github.com/muhlba91/muehlbachler-global-dns)
 
 This repository contains the Global DNS for the following domains using [octoDNS](https://github.com/octodns/octodns):
 
