@@ -20,7 +20,7 @@ _adsp._domainkey:
   value: dkim=all
 _dmarc:
   type: TXT
-  value: v=DMARC1\; p=reject\; rua=mailto:postmaster@niftyside.io\; ruf=mailto:postmaster@niftyside.io\; fo=0\; adkim=r\; aspf=r\; rf=afrf
+  value: v=DMARC1\; p=reject\; rua=mailto:unquf2os@rua.dmarceye.com\; ruf=mailto:postmaster@niftyside.io\; fo=0\; adkim=r\; aspf=r\; rf=afrf\; ri=86400
 x._domainkey:
   type: TXT
   value: v=DKIM1\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvlGJN8YBCbUztLbfAS0uZwLecSOgID5vQDvLEvs96e661xflxeGGnL2R/B3cLvz7/MphEMh7bflUJOsDUpm41itlx6+nQVfn3dZiz7Omh2ql7P3ghY6NNFvOOvaZBWXgTEw6C1fBL+0ccvOtdrAjAuDm4/Tro2YSXqgbe/zFIyllvJ/qMM1rPVFwGkNJgijXDXiS7lgkdTviMtc4daWLsiYJG9mn5t+0xug9ijKy+nvKmyRPYFv0FB9ntKmZR0lG81urQZ69yRhQmXLQRe3sjpkyG69srLYUjiegVvDxNe2VpE4IJ9xPD7JZ0+tZ9eYTEKwj5AGFDQpBsXRm1hlooQIDAQAB
