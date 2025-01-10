@@ -18,9 +18,9 @@ relay:
 _adsp._domainkey.relay:
   type: TXT
   value: dkim=all
-_dmarc.d1n.relay:
+_dmarc.relay:
   type: TXT
-  value: v=DMARC1\; p=reject\; rua=mailto:postmaster@muehlbachler.io\; ruf=mailto:postmaster@muehlbachler.io\; fo=0\; adkim=r\; aspf=r\; rf=afrf
+  value: v=DMARC1\; p=reject\; rua=mailto:unquf2os@rua.dmarceye.com\; ruf=mailto:postmaster@muehlbachler.io\; fo=0\; adkim=r\; aspf=r\; rf=afrf\; ri=86400
 relay._domainkey.relay:
   type: TXT
   value: v=DKIM1\; k=rsa\; t=s\; s=email\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqq46OXJDOZvyrwk1Mtx6rbY/gl3ME55rVJweIpjseRjIKaFz4CokbPTXjAThJaT7rfr9tZJcYG37dK9g8uG8WGb9utqGaOub6P5jMTGXzMqwCusBjZ/Ndki4WXH57WCHP0C4sqCSDnVCFpZQi9ohIvDsP4RLDto25pEvXu7P8xoQJRj2H1FzZ9SbSq44tYFWCG4TGlf5FxIEgrWzeR06JLy4czNU5RbS6Vp5dsulcojqJatDKkXcbjJwUJk/WWrDiysdj8VwAQrnS0yKloDLts8bVGI0gg2Qusf75BMQcNaPJFI9+EGGxzcfqQfyejNbeSs2tu1PFwJAY4cxTFH2yQIDAQAB
