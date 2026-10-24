@@ -1,5 +1,5 @@
 ---
-'':
+"":
   - type: NS
     ttl: 21600
     values:
@@ -46,3 +46,6 @@ blog:
   values:
     - 162.159.152.4
     - 162.159.153.4
+openpgpkey:
+  type: CNAME
+  value: wkd.keys.openpgp.org.
