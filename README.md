@@ -14,8 +14,13 @@ This repository contains the Global DNS for the following domains using [octoDNS
 
 ## Requirements
 
-- [Python](https://python.org)
-- [octoDNS](https://github.com/octodns/octodns)
+Tool versions (Python 3.15.0) are managed with [mise](https://mise.jdx.dev): run `mise trust` and `mise install` once, which also creates the `.venv` virtual environment. Then install the Python dependencies ([octoDNS](https://github.com/octodns/octodns), its Google Cloud provider, yamllint) with:
+
+```bash
+mise exec -- pip install -r requirements.txt
+```
+
+Run the commands below with `mise exec -- ...` (or from an activated mise environment).
 
 ## Managing the Records
 
